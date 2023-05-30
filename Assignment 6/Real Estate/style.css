@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f6f8fa;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:50px;
+    margin-bottom:20px;
+    padding-top:20px;
+    /* border: 1px solid red; */
+}
+.ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:70px;
+}
+.list,li{
+    list-style: none;
+}
+.a{
+    text-decoration: none;
+    font-weight:300;
+    font-size:18px;
+    color:#fff;
+}
+.mainSection{
+    height:600px;
+    width:1220px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./mainBackground.png");
+}
+
+.hr{
+    border:2px solid #fff;
+    margin-bottom:30px;
+    margin-right:70px;
+    margin-left:70px;
+}
+
+.mainAside{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left:100px;
+    margin-top:60px;
+    margin-right:40%;
+    /* border:1px solid red;  */
+
+}
+
+.heading{
+    font-size: 50px;
+    text-align:start;
+    font-weight:400;
+    margin-bottom:20px;
+}
+
+.description{
+    font-size:22px;
+    font-weight:300;
+    text-align:start;
+    margin-bottom:20px;
+    color:#828282;
+}
+
+
+.mainButton{
+    padding:4px 14px;
+    background-color: #5955b3;
+    font-size:20px;
+    font-weight:400;
+    border-radius:20px;
+}
+ /* Subscribe Section Button */
+.subsButton{
+    padding:10px 32px;
+    background-color: #fff;
+    color:#5955b3;
+    font-size:20px;
+    font-weight:400;
+    border-radius:20px;
+    margin-bottom: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:30px;
+    /* border:1px solid red; */
+    padding:25px 50px;
+    margin:auto 30px;
+    border-radius:15px;
+    position:relative;
+    bottom:47px;
+    background-color: #fff;
+}
+.main-footer{
+    margin-bottom:20px ;
+}
+
+.realEstateList,.realEstateDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.realEstateContent{
+    color:black;
+    font-size:55px;
+    text-align:center;
+    font-weight:600;
+    margin-right: 180px;
+    margin-left: 180px;
+    margin-bottom:80px;
+}
+
+/* lists of the real estate  */
+    .EstateImages{
+        display:grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 10px;
+    }
+    .card{
+        border-radius:20px;
+    }
+
+    .infoAboutEstate{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap:10px;
+    }
+
+    .info{
+        font-weight:600;
+        text-align: start;
+        color:#000000;
+        margin-bottom: 10px;
+
+    }
+    .infoValue{
+        color:#5955b3;
+
+    }
+    .infoButton{
+        padding:4px 14px;
+        background-color: #5955b3;
+        font-size:20px;
+        color:#fff;
+        border-radius:25px;
+    }
+
+    .infoAboutEstate{
+        /* border:1px solid red; */
+        position: relative;
+        bottom: 50px;
+        background-color: #fff;
+        border-radius:15px;
+    }
+
+    .realEstateList,.foot{
+        background-color: #f6f8fa;
+    }
+    .realEstateList{
+        margin-bottom:80px;
+    }
+
+    .card1{
+        position: relative;
+        bottom: 30px;
+    }
+    .card2{
+        position: relative;
+        bottom: 15px;
+    }
+
+    .card5{
+        position:relative;
+        bottom:15px;
+    }
+    .card6{
+        position:relative;
+        bottom:30px;
+    }
+
+
+
+    /* Description Of the real estate */
+
+    .firstOne,.secondOne{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .modern,.modern1,.overview,.overview1{
+        color:#000000;
+    }
+
+    .modern,.modern1{
+        font-size:50px;
+        font-weight:600;
+        text-align:start;
+    }
+    .des,.des1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:flex-start;
+        gap:20px;
+        margin-right:50px;
+    }
+
+    .des1{
+        margin-left:30px;
+    }
+    .descButton,.descButton1{
+        padding:10px 30px;
+        background-color: #5955b3;
+        font-size:20px;
+        font-weight:400;
+        border-radius:20px;
+    }
+    
+    .overview,.overview1{
+    font-size:20px;
+    font-weight:300;
+    text-align:start;
+    color:#828282;
+    }
+
+    .firstImage{
+        position:absolute;
+        left:70px;
+        border-radius: 25px;
+        /* border:2px solid red; */
+    }
+
+    .secondImage{
+        position:absolute;
+        right:70px;
+        border-radius:25px;
+    }
+    /* .des1{
+        border:1px solid red;
+        width:500px;
+        text-align: center;
+    } */
+
+
+    /* Subscribe Section Of the webpage */
+
+    .subscribe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        background-color: #5955b3;
+        margin:30px 70px;
+        border-radius: 35px;
+
+    
+    }
+
+    .subscribeInfo{
+        font-style:normal;
+        font-size:50px;
+        font-weight:500;
+        margin-top:30px;
+        text-align: center;
+        padding-right:45px;
+        padding-left: 45px;
+        margin-bottom: 20px;
+
+    }
+
+    .subscribeDesc{
+        font-size:20px;
+        text-align: center;
+        margin: 10px 150px;
+        color:#828282;
+
+    }
+
+    .buttonSection{
+        display: flex;
+        align-items: center;
+        justify-content:  center;
+        gap:20px;
+    }
+
+    .email{
+        background-color: #828282;
+        padding-right:250px;
+        padding-left:10px;
+        margin-bottom: 20px;
+        border-radius: 25px;
+        padding-top:10px;
+        padding-bottom: 10px;
+
+    }
+
+    .lastSection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color:#000000;
+        margin-bottom: 30px;
+    }
+
+    h3,.location .locationList,.contact .contactlist,.loges .logeslist,.contactlistImp,.logeslistImp,.locationListImp{
+        color:#000000;
+    }
+    .part1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width:30%;
+        gap:10px;
+    }
+
+    .location,.contact,.loges{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap:8px;
+    }
+    .locationListImp,.contactlistImp,.logeslistImp{
+        font-weight:600;
+        font-size:20px;
+        margin-bottom: 10px;
+    }
